@@ -1,7 +1,7 @@
-# NLM Medical Image Filtering - Performance Analyzer
+# NLM Medical Image Filtering 
 
 ## Overview
-This project provides a desktop application to analyze the performance of the Non-Local Means (NLM) image denoising algorithm. It is designed specifically for medical images. The software evaluates the execution time differences between sequential CPU processing and parallel GPU processing using CUDA.
+This project provides a desktop application to analyze the performance of the Non-Local Means image denoising algorithm. It is designed specifically for medical images. The software evaluates the execution time differences between sequential CPU processing and parallel GPU processing using CUDA.
 
 ## Key Features
 * **CUDA Acceleration:** Uses both Global Memory and Shared Memory optimizations for the GPU.
@@ -46,3 +46,5 @@ cd NLM_Release
 5. Wait for the test to complete. You can watch the live terminal and image stream.
 6. Once it finishes, switch to the "Evaluate Results & Graphs" tab.
 7. Load the generated JSON file from your output folder to view the performance graphs and data tables.
+
+**Extra Note - Viewing Past Results:** In the "Live Image Stream & Best Quality Viewer" section, you can click the **"Load Specific Folder"** button to choose a previously generated output folder. This allows you to load past benchmark data and manually select, view, and compare all the processed images from your earlier tests without having to run a new one.
