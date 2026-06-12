@@ -1,9 +1,9 @@
 # NLM Medical Image Filtering - Project Repository
 
 ## Project Overview
-This repository contains the implementation and performance analysis of the Non-Local Means (NLM) image denoising algorithm for medical images. It compares standard sequential CPU processing against parallel GPU processing using CUDA. The project tests both Global Memory and Shared Memory optimizations.
+This repository contains the implementation and performance analysis of the Non-Local Means image denoising algorithm for medical images. It compares standard sequential CPU processing against parallel GPU processing using CUDA. The project tests both Global Memory and Shared Memory optimizations.
 
-The project is divided into two main environments: a command-line interface for batch testing and a graphical user interface (GUI) for live demonstrations.
+The project is divided into two main environments: a command-line interface for testing and a graphical user interface for live demonstrations.
 
 ## Project Structure
 Based on the repository layout, the files are organized as follows:
@@ -24,6 +24,11 @@ Root/
 │
 ├── Usage With Terminal/
 │   ├── global_usage/
+│   │   ├── images/
+│   │   ├── nlm_benchmark.cu
+│   │   ├── run_benchmark.sh
+│   │   ├── stb_image.h
+│   │   └── stb_image_write.h
 │   ├── shared_usage/
 │   │   ├── images/
 │   │   ├── nlm_benchmark.cu
@@ -36,7 +41,7 @@ Root/
 ```
 
 ## 1. Demo With Frontend
-This folder contains a Python (Tkinter) graphical interface. It is designed for live demonstrations and individual image analysis. You can select an image, choose a specific GPU memory mode, and watch the processing happen in real-time. It automatically generates performance charts after the execution.
+This folder contains a Python (kinter graphical interface. It is designed for live demonstrations and individual image analysis. You can select an image, choose a specific GPU memory mode, and watch the processing happen in real-time. It automatically generates performance charts after the execution.
 
 * **Primary Use Case:** Visualizing the filtering process, comparing images side-by-side, and generating automatic performance graphs.
 * **Documentation:** [Click here to read the Frontend Documentation](./Demo%20With%20Frontend/README.md)
