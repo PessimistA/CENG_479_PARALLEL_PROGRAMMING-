@@ -41,7 +41,7 @@ Root/
 ```
 
 ## 1. Demo With Frontend
-This folder contains a Python (kinter graphical interface. It is designed for live demonstrations and individual image analysis. You can select an image, choose a specific GPU memory mode, and watch the processing happen in real-time. It automatically generates performance charts after the execution.
+This folder contains a Python tkinter graphical interface. It is designed for live demonstrations and individual image analysis. You can select an image, choose a specific GPU memory mode, and watch the processing happen in real-time. It automatically generates performance charts after the execution.
 
 * **Primary Use Case:** Visualizing the filtering process, comparing images side-by-side, and generating automatic performance graphs.
 * **Documentation:** [Click here to read the Frontend Documentation](./Demo%20With%20Frontend/README.md)
