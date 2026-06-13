@@ -1,4 +1,4 @@
-# NLM Medical Image Filtering - Project Repository
+# NLM Solution With CUDA: Parallel Image Denoising For Medical Imaging
 
 ## Project Overview
 This repository contains the implementation and performance analysis of the Non-Local Means image denoising algorithm for medical images. It compares standard sequential CPU processing against parallel GPU processing using CUDA. The project tests both Global Memory and Shared Memory optimizations.
