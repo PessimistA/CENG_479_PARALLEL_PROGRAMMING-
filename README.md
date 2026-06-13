@@ -9,8 +9,9 @@ The project is divided into two main environments: a command-line interface for 
 Based on the repository layout, the files are organized as follows:
 
 ## Important Note
-The real solution of this project is in the Demo With Frontend part. Both sequential and parallel solutions can be found on different files.
-Terminal solution is given for the users that doesn't want to run python code.
+The main implementation is in the **Demo With Frontend** folder.
+The **Usage With Terminal** folder provides the same sequential and CUDA-based algorithms for users who prefer terminal-only execution instead of the Python GUI.
+Both versions use the same algorithmic structure. The difference is only the usage method: GUI-based application or terminal-based benchmark.
 
 ```text
 Root/
