@@ -8,6 +8,10 @@ The project is divided into two main environments: a command-line interface for 
 ## Project Structure
 Based on the repository layout, the files are organized as follows:
 
+## Important Note
+The real solution of this project is in the Demo With Frontend part. Both sequential and parallel solutions can be found on different files.
+Terminal solution is given for the users that doesn't want to run python code.
+
 ```text
 Root/
 │
